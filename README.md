@@ -1,8 +1,14 @@
-# Advanced
-* [lesson-01](https://github.com/Jozroker/Advanced/tree/lesson-01)  (JUnit)
-* [lesson-02](https://github.com/Jozroker/Shop/tree/beta_version_1/src/main/java/ua/com/lviv/tc/repositories)  (JDBC)
-* [lesson-03](https://github.com/Jozroker/Advanced/tree/lesson-03)  (Log4j)
-* [lesson-04-10](https://github.com/Jozroker/Shop.git)  (Internet Shop Project)
-* [lesson-12](https://github.com/Jozroker/Advanced/tree/lesson-12)  (Maven, Gradle)
-* [lesson-13](https://github.com/Jozroker/Advanced/tree/lesson-13)  (JPA)
-* [lesson-14](https://github.com/Jozroker/Advanced/tree/lesson-14)  (Hibernate)
+# Maven, Gradle
+* [lesson-12-1](https://github.com/Jozroker/Advanced/tree/maven/src/main/java/lesson12/mvn_project)  (Maven Project)
+* [lesson-12-2](https://github.com/Jozroker/Advanced/tree/gradle/src/main/java/lesson12/gradle_project)  (Gradle Project)
+
+Завдання:
+1. Створити maven project та gradle project
+2. Додати проекту пакування в war
+3. Зробити даний проект веб-проектом
+4. Додати index.jsp де буде вказано текст: 'Мене звуть ____, і я радий вчитись із LOGOS IT ACADEMY', де замість
+____ слід вказати своє імя та прізвище.
+5. Здійснити пакування проекту в war.
+6. Зробити deploy war файлу на tomcat
+7. Залити кожен із проектів в окремий branch на віддаленому репозиторію Github
+8. Скинути link на проекти , для перевірки
