@@ -1,8 +1,5 @@
-# Advanced
-* [lesson-01](https://github.com/Jozroker/Advanced/tree/lesson-01)  (JUnit)
-* [lesson-02](https://github.com/Jozroker/Shop/tree/beta_version_1/src/main/java/ua/com/lviv/tc/repositories)  (JDBC)
-* [lesson-03](https://github.com/Jozroker/Advanced/tree/lesson-03)  (Log4j)
-* [lesson-04-10](https://github.com/Jozroker/Shop.git)  (Internet Shop Project)
-* [lesson-12](https://github.com/Jozroker/Advanced/tree/lesson-12) (Maven, Gradle)
-* [lesson-13](https://github.com/Jozroker/Shop/tree/jpa_realisation)  (JPA)
-* [lesson-14](https://github.com/Jozroker/Advanced/tree/lesson-14)  (Hibernate)
+1. Створіть модель Cart із полями: {id, total, name, Set<Item>} та модель
+Item із полями: {id, total, Set<Cart>}. Класи співвідностяться звязком Many-to-Many
+2. Використовуючи Hibernate із XML налаштуваннями замапте дану модель на таблицю в БД.
+3. Створити Application клас та написати код для заповнення обєктів класу Card із списком із 4 обєктів типу Item в
+базу даних.
