@@ -4,11 +4,11 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class ManagerFactoryClass {
+public class SessionFactoryCreator {
 
     private static SessionFactory sf;
 
-    private ManagerFactoryClass(){
+    private SessionFactoryCreator(){
     }
 
     public static SessionFactory getInstance() {

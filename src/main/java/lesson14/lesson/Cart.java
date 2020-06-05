@@ -15,6 +15,17 @@ import java.util.Set;
 @Table(name = "cart")
 public class Cart {
 
+    public Cart(Integer total, String name){
+        this.total = total;
+        this.name = name;
+    }
+
+    public Cart(Integer total, String name, Set<Item> items){
+        this.total = total;
+        this.name = name;
+        this.items = items;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -30,6 +41,8 @@ public class Cart {
     private String name;
 
     @ManyToMany
-    @JoinColumn(name = "item_id")
+    @JoinTable(name = "cart_item",
+        joinColumns = @JoinColumn(name = "cart_id", referencedColumnName = "id"),
+        inverseJoinColumns = @JoinColumn(name = "item_id", referencedColumnName = "id"))
     private Set<Item> items;
 }
