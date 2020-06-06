@@ -6,3 +6,8 @@
 * [lesson-12](https://github.com/Jozroker/Advanced/tree/lesson-12) (Maven, Gradle)
 * [lesson-13](https://github.com/Jozroker/Shop/tree/jpa_realisation)  (JPA)
 * [lesson-14](https://github.com/Jozroker/Advanced/tree/lesson-14)  (Hibernate)
+* [lesson-15](https://github.com/Jozroker/Advanced/tree/lesson-15)  (Hibernate Mapping)
+* [~~lesson-16~~](https://github.com/Jozroker/Advanced/tree/lesson-16)  (Spring Core)
+* [~~lesson-17~~](https://github.com/Jozroker/Advanced/tree/lesson-17)  (Spring Data JPA)
+* [~~lesson-18~~](https://github.com/Jozroker/Advanced/tree/lesson-18)  (Spring MVC)
+* [~~lesson-19~~](https://github.com/Jozroker/Advanced/tree/lesson-19)  (Spring File Upload)
