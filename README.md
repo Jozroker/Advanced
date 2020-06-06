@@ -1,13 +1,4 @@
-# Advanced
-* [lesson-01](https://github.com/Jozroker/Advanced/tree/lesson-01)  (JUnit)
-* [lesson-02](https://github.com/Jozroker/Shop/tree/beta_version_1/src/main/java/ua/com/lviv/tc/repositories)  (JDBC)
-* [lesson-03](https://github.com/Jozroker/Advanced/tree/lesson-03)  (Log4j)
-* [lesson-04-10](https://github.com/Jozroker/Shop.git)  (Internet Shop Project)
-* [lesson-12](https://github.com/Jozroker/Advanced/tree/lesson-12) (Maven, Gradle)
-* [lesson-13](https://github.com/Jozroker/Shop/tree/jpa_realisation)  (JPA)
-* [lesson-14](https://github.com/Jozroker/Advanced/tree/lesson-14)  (Hibernate)
-* [lesson-15](https://github.com/Jozroker/Advanced/tree/lesson-15)  (Hibernate Mapping)
-* [~~lesson-16~~](https://github.com/Jozroker/Advanced/tree/lesson-16)  (Spring Core)
-* [~~lesson-17~~](https://github.com/Jozroker/Advanced/tree/lesson-17)  (Spring Data JPA)
-* [~~lesson-18~~](https://github.com/Jozroker/Advanced/tree/lesson-18)  (Spring MVC)
-* [~~lesson-19~~](https://github.com/Jozroker/Advanced/tree/lesson-19)  (Spring File Upload)
+1. Створити клас Post із полями id, title.
+2. Створити клас Comment із полями id, authorName.
+3. Поєднати дані класи зв`язком One-to-many
+4. Створити Application клас де здіснити зберігання та вичитування даних класів.
